@@ -1,0 +1,41 @@
+<!-- rital yahya alghates 
+2210683 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Define the character encoding for the page -->
+    <meta charset="UTF-8" />
+    <!-- Title of the page shown in the browser tab -->
+    <title>The Cat API Viewer</title>
+    <!-- Link to an external CSS file for styling the page -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main title of the page -->
+    <h1>The Cat API Viewer</h1>
+
+    <!-- Button to fetch a random cat image -->
+    <button id="fetchCatBtn">Get Random Cat</button>
+
+    <!-- Button to clear all displayed cats -->
+    <button id="clearCatsBtn">Clear Cats</button>
+
+    <!-- Form for searching cats by breed -->
+    <form id="catSearchForm">
+      <!-- Input field for entering the breed name -->
+      <input
+        type="text"
+        id="breedInput"
+        placeholder="Enter breed name (e.g. beng)"
+      />
+      <!-- Button to submit the form and search for the breed -->
+      <button type="submit">Search by Breed</button>
+    </form>
+
+    <!-- Container where cat images and breed details will be displayed -->
+    <div id="catContainer"></div>
+
+    <!-- Link to the external JavaScript file that handles the functionality -->
+    <script src="script.js"></script>
+  </body>
+</html>
